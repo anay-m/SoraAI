@@ -1,0 +1,84 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form input[type="range"] {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+form .highlight {
+    font-weight: bold;
+    color: red;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+}
+
+form button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 20px;
+}
